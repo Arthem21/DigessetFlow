@@ -50,6 +50,9 @@ namespace P.Final.Migrations
                     b.Property<int>("ConceptoId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<double>("Coste")
+                        .HasColumnType("REAL");
+
                     b.Property<double>("Costes")
                         .HasColumnType("REAL");
 
